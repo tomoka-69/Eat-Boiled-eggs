@@ -1,0 +1,15 @@
+@startuml ゆで卵
+start
+:銀行で金を下ろす;
+:スーパーで卵を買う;
+
+fork
+  :卵を洗う;
+fork again
+  :お湯を沸かす;
+end fork
+:卵をゆでる;
+:殻を割る;
+:塩を振る;
+stop
+@enduml
